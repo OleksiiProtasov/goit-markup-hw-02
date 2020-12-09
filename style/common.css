@@ -1,0 +1,47 @@
+:root {
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #000000;
+    --accent-color: #18a0fb;
+    --primary-white-color: #ffffff;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color)
+}
+
+
+/* header */
+
+header {
+    height: 80px;
+    width: 1600px;
+    display: inline-block;
+    background: #c976d1;
+}
+
+.web {
+    color: #2196F3;
+    font-weight: 700px;
+}
+
+.studio {
+    color: var(--title-text-color);
+    font-weight: 700px;
+}
+
+.connection {
+    color: #757575;
+}
+
+.link:hover,
+.link:focus {
+    color: #2196F3
+}
+
+.link:active {
+    color: blueviolet
+}
+
+
+/* footer */

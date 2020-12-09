@@ -1,0 +1,32 @@
+:root {
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #000000;
+    --accent-color: #18a0fb;
+    --primary-white-color: #ffffff;
+}
+
+
+/* стили index.html*/
+
+.hero {
+    margin-top: 0px;
+    text-align: center;
+    height: 600px;
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: var(--primary-white-color);
+    font-family: Roboto;
+    width: 900px;
+    margin: 200px;
+}
+
+.hero-btn {
+    margin-top: 30px;
+    background-color: #2196F3;
+    color: var(--primary-white-color);
+}
+
+
+/* стили portfolios.html*/
