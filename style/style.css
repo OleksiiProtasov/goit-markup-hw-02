@@ -233,7 +233,7 @@ main footer{
 .portf-btn:hover{
     cursor: pointer;
     background-color: var(--accent-color);
-    outline-color: #F5F4FA;
+    outline-color: #F5F4FA; 
 }
 
 .portf-btn{
