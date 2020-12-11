@@ -1,12 +1,87 @@
 :root {
     --primary-text-color: rgba(0, 0, 0, 0.8);
     --title-text-color: #000000;
-    --accent-color: #18a0fb;
+    --accent-color: #2196F3;
     --primary-white-color: #ffffff;
+    --footer-color:#2F303A;
+   
 }
 
 
-/* стили index.html*/
+
+
+/* header */
+
+ul {list-style: none;}
+
+a {text-decoration: none;}
+
+
+
+.header{
+    display: inline;
+    height: 80px;
+    width: 1600px;
+    background: var(--primary-white-color);
+}
+
+.site-nav .link.current{
+    color: violet;
+}
+
+.web {
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+.studio {
+    color: var(--title-text-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+      
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.link:active {
+    color: blueviolet
+}
+
+.howconnect{
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color)
+}
 
 .hero {
     margin-top: 0px;
@@ -18,15 +93,176 @@
 .hero-title {
     color: var(--primary-white-color);
     font-family: Roboto;
-    width: 900px;
-    margin: 200px;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+
 }
 
 .hero-btn {
     margin-top: 30px;
     background-color: #2196F3;
     color: var(--primary-white-color);
+
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+}
+
+.features ul{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.features li{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.ourwork{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    }
+
+.ourteamtitle{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+
+.ourname{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    
+}
+.ourteam p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    
+    }
+
+
+    /* footer */
+
+main footer{
+    background-color:var(--footer-color);
+}    
+
+.webfoot{
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    
+    color: var(--accent-color);
+}
+.studiofoot{   
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    
+    color: var(--primary-white-color);
+}
+
+.address{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color:var(--primary-white-color)
+}
+
+.howconectfoot{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+/* стили portfolios.html*/
+
+
+
+/* buttons */
+
+.portf-btn:focus,
+.portf-btn:hover{
+    cursor: pointer;
+    background-color: var(--accent-color);
+    outline-color: #F5F4FA;
+}
+
+.portf-btn{
+    color:#212121;
+    background-color: #F5F4FA;
+    outline-color: #F5F4FA;
 }
 
 
-/* стили portfolios.html*/
+/* our projects */
+
+.wedo{
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+
+}
+
+.aboutwedo{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
