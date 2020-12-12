@@ -4,7 +4,7 @@
     --accent-color: #2196F3;
     --primary-white-color: #ffffff;
     --footer-color:#2F303A;
-   
+    --connect-color:#757575;
 }
 
 
@@ -23,6 +23,14 @@ a {text-decoration: none;}
     height: 80px;
     width: 1600px;
     background: var(--primary-white-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+
 }
 
 .site-nav .link.current{
@@ -48,7 +56,10 @@ a {text-decoration: none;}
     line-height: 31px;
     letter-spacing: 0.03em;
     text-align: left;
-      
+}
+
+.link{
+    color:var(--title-text-color)
 }
 
 .link:hover,
@@ -62,20 +73,24 @@ a {text-decoration: none;}
     text-align: left;
 }
 
-.link:active {
-    color: blueviolet
+.link:active{
+    color:rgb(255, 0, 0)
 }
 
-.howconnect{
-    color: #757575;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    text-align: left;
+.link{
+    color: var(--title-text-color);
+  }
 
+.conect .link{
+    color: var(--connect-color);
 }
+
+.conect p:hover,
+.conect p:focus{
+    color:var(--accent-color);
+}
+
+
 
 
 body {
@@ -180,7 +195,7 @@ body {
 
     /* footer */
 
-main footer{
+body footer{
     background-color:var(--footer-color);
 }    
 
