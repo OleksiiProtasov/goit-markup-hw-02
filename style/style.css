@@ -5,6 +5,8 @@
     --primary-white-color: #ffffff;
     --footer-color:#2F303A;
     --connect-color:#757575;
+    --primary-font-famaly:Roboto;
+
 }
 
 
@@ -23,7 +25,7 @@ a {text-decoration: none;}
     height: 80px;
     width: 1600px;
     background: var(--primary-white-color);
-    font-family: Roboto;
+    font-family: var(--primary-font-famaly);
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -59,13 +61,13 @@ a {text-decoration: none;}
 }
 
 .link{
-    color:var(--title-text-color)
+    color:var(--title-text-color);
 }
 
 .link:hover,
 .link:focus {
     color: var(--accent-color);
-    font-family: Roboto;
+    font-family: var(--primary-font-famaly);
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -74,7 +76,7 @@ a {text-decoration: none;}
 }
 
 .link:active{
-    color:rgb(255, 0, 0)
+    color:rgb(255, 0, 0);
 }
 
 .link{
@@ -92,7 +94,7 @@ a {text-decoration: none;}
 
 body {
     background-color: var(--primary-white-color);
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
 
 .hero {
@@ -104,7 +106,7 @@ body {
 
 .hero-title {
     color: var(--primary-white-color);
-    font-family: Roboto;
+    font-family: var(--primary-font-famaly);
     font-size: 44px;
     font-weight: 900;
     line-height: 60px;
@@ -125,7 +127,7 @@ body {
     left: 700px;
     top: 430px;
     
-    font-family: Roboto;
+    font-family: var(--primary-font-famaly);
     font-weight: bold;
     font-size: 16px;
     display: flex;
@@ -135,8 +137,9 @@ body {
 
 }
 
-.features ul{
-    font-family: Roboto;
+
+.features h3{
+    font-family: var(--primary-font-famaly);
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
@@ -144,8 +147,8 @@ body {
     text-align: left;
 }
 
-.features li{
-    font-family: Roboto;
+.features p{
+    font-family: var(--primary-font-famaly);
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -153,8 +156,9 @@ body {
     text-align: left;
 }
 
+
 .ourwork{
-    font-family: Roboto;
+    font-family: var(--primary-font-famaly);
     font-size: 36px;
     font-weight: 700;
     line-height: 42px;
@@ -163,7 +167,7 @@ body {
     }
 
 .ourteamtitle{
-    font-family: Roboto;
+    font-family: var(--primary-font-famaly);
     font-size: 36px;
     font-weight: 700;
     line-height: 42px;
@@ -173,7 +177,7 @@ body {
 }
 
 .ourname{
-    font-family: Roboto;
+    font-family: var(--primary-font-famaly);
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
@@ -181,12 +185,20 @@ body {
     
 }
 .ourteam p{
-    font-family: Roboto;
+    font-family: var(--primary-font-famaly);
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0.03em;
-    
+    }
+
+.ourprofession{
+    font-family: var(--primary-font-famaly);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: left;
     }
 
 
@@ -216,23 +228,23 @@ body footer{
 }
 
 .address{
-    font-family: Roboto;
+    font-family: var(--primary-font-famaly);
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
     font-style: normal;
-    color:var(--primary-white-color)
+    color:var(--primary-white-color);
 }
 
 .howconectfoot{
-    font-family: Roboto;
+    font-family: var(--primary-font-famaly);
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: left;
-    color: rgba(255, 255, 255, 0.8)
+    color: rgba(255, 255, 255, 0.8);
 }
 
 /* стили portfolios.html*/
@@ -245,20 +257,32 @@ body footer{
 .portf-btn:hover{
     cursor: pointer;
     background-color: var(--accent-color);
-    outline-color: #F5F4FA; 
+    color:var(--primary-white-color);
+    font-family: var(--primary-font-famaly);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
+
 
 .portf-btn{
     color:#212121;
     background-color: #F5F4FA;
-    outline-color: #F5F4FA;
+    font-family: var(--primary-font-famaly);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 
 
 /* our projects */
 
 .wedo{
-    font-family: Roboto;
+    font-family:var(--primary-font-famaly);
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -269,7 +293,7 @@ body footer{
 }
 
 .aboutwedo{
-    font-family: Roboto;
+    font-family:var(--primary-font-famaly);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
